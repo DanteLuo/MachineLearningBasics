@@ -8,13 +8,13 @@ dataset = list()
 label_buf = list()
 token_list = list()
 
-token_path = os.path.expanduser('~/PycharmProjects/ML/HW_two/spam_classification/spam_classification/TOKENS_LIST')
+token_path = os.path.expanduser('~/PycharmProjects/ML/KNN and Naive Bayes/spam_classification/spam_classification/TOKENS_LIST')
 with open(token_path,newline='') as token:
     reader = csv.reader(token, delimiter=' ')
     for row in reader:
         token_list.append(row)
 
-train_path = os.path.expanduser('~/PycharmProjects/ML/HW_two/spam_classification/spam_classification/SPARSE.TRAIN')
+train_path = os.path.expanduser('~/PycharmProjects/ML/KNN and Naive Bayes/spam_classification/spam_classification/SPARSE.TRAIN')
 with open(train_path, newline='') as train:
     reader = csv.reader(train, delimiter=' ')
     for row in reader:
@@ -55,7 +55,7 @@ p_wj_y[1] = p_wj_y_numerator/p_wj_y_denominator
 # classify the test dataset
 # read the test dataset
 label_test_buf = list()
-test_path = os.path.expanduser('~/PycharmProjects/ML/HW_two/spam_classification/spam_classification/SPARSE.TEST')
+test_path = os.path.expanduser('~/PycharmProjects/ML/KNN and Naive Bayes/spam_classification/spam_classification/SPARSE.TEST')
 with open(test_path, newline='') as test:
     reader = csv.reader(test, delimiter=' ')
     for row in reader:

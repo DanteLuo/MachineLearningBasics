@@ -27,10 +27,22 @@ import numpy as np
 # print(test_two)
 
 
-x1 = np.array([1,0,2])
-x2 = np.arange(3.0).reshape((1, 3))
-print(x1[x1.argsort()[-3:][0]])
-print(np.divide(x1, x2))
+x1 = np.array([3,0,2])
+x2 = np.arange(12.0).reshape((4, 3))
+# print(x1,x2)
+# print(x2[:,0])
+# print(np.sum(x2,axis=1))
+# print(x1-x2)
+print(x1.argsort()[:3])
+# print(np.divide(x1, x2))
+# print(x2-x1)
+#
+# for sample in x2:
+#     print(sample)
+#     break
 
-
+# x = [[20,1],[10,2]]
+# x.append([30,5])
+#
+# print(sorted(x))
 
