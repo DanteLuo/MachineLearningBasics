@@ -41,14 +41,16 @@ def main():
     np.random.seed(32)
 
     # prediction and calculating training error
-    num_avg = 5
+    num_avg = 1
     k_candidates = [1, 5, 9, 13]
     training_err = np.zeros([num_avg,len(k_candidates)])
+    test_err     = np.zeros([num_avg,len(k_candidates)])
     for num_episode in range(num_avg):
         sample_index = np.random.choice(choices, sample_n)
         test_sample = test_data[sample_index][:]
         for k_ind, k in enumerate(k_candidates):
-            training_err[num_episode][k_ind] = knn_error_checking(train_data,test_sample,k)
+            training_err[num_episode][k_ind] = knn_error_checking(train_data,train_data,k)
+            test_err[num_episode][k_ind] = knn_error_checking(train_data,test_sample,k)
 
     # averaging the error for a steady performance
     training_err_avg = np.mean(training_err,axis=0)

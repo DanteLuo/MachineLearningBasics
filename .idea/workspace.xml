@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7419eb4-d76e-4f4b-8011-34f637021a24" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/._spam_classification_matlab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TEST.X" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TEST.Y" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X.100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X.1400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X.200" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X.400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X.50" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.X.800" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.Y.100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.Y.1400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.Y.200" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.Y.400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.Y.50" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.TRAIN.Y.800" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._DENSE.Y.TRAIN.Y" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._TOKENS_LIST" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._news_sample_original.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._news_sample_preprocessed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._spam_sample_original_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._spam_sample_original_2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._spam_sample_preprocessed_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/__MACOSX/spam_classification_matlab/._spam_sample_preprocessed_2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TEST.X" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TEST.Y" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X.100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X.1400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X.200" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X.400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X.50" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.X.800" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.Y.100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.Y.1400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.Y.200" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.Y.400" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.Y.50" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.TRAIN.Y.800" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/DENSE.Y.TRAIN.Y" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/TOKENS_LIST" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/news_sample_original.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/news_sample_preprocessed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/spam_sample_original_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/spam_sample_original_2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/spam_sample_preprocessed_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/spam_classification_matlab/spam_classification_matlab/spam_sample_preprocessed_2.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py" afterPath="$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/KNN.py" afterPath="$PROJECT_DIR$/KNN and Naive Bayes/KNN.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/README.md" afterPath="$PROJECT_DIR$/KNN and Naive Bayes/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/requirements.txt" afterPath="$PROJECT_DIR$/KNN and Naive Bayes/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KNN and Naive Bayes/test.py" afterPath="$PROJECT_DIR$/KNN and Naive Bayes/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,19 +15,19 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1507515112092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN and Naive Bayes" />
     <SUITE FILE_PATH="coverage/ML$test.coverage" NAME="test Coverage Results" MODIFIED="1507338500201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_two" />
-    <SUITE FILE_PATH="coverage/ML$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1507517962028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN and Naive Bayes" />
+    <SUITE FILE_PATH="coverage/ML$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1507861024381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN and Naive Bayes" />
     <SUITE FILE_PATH="coverage/ML$HW_One.coverage" NAME="HW_One Coverage Results" MODIFIED="1506648443103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_one" />
     <SUITE FILE_PATH="coverage/ML$decision_tree.coverage" NAME="decision_tree Coverage Results" MODIFIED="1507315053698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/Random_Forest" />
-    <SUITE FILE_PATH="coverage/ML$Bayesian_Spam_Classifier.coverage" NAME="Bayesian_Spam_Classifier Coverage Results" MODIFIED="1507519049194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN and Naive Bayes" />
+    <SUITE FILE_PATH="coverage/ML$Bayesian_Spam_Classifier.coverage" NAME="Bayesian_Spam_Classifier Coverage Results" MODIFIED="1507861019779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN and Naive Bayes" />
     <SUITE FILE_PATH="coverage/ML$hw_2.coverage" NAME="hw_2 Coverage Results" MODIFIED="1507339080699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_two" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="738">
+              <first_editor relative-caret-position="459">
                 <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
                 <folding />
               </first_editor>
@@ -90,8 +39,8 @@
       <file leaf-file-name="KNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="-80">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -99,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bayesian_Spam_Classifier.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bayesian_Spam_Classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-404">
+            <state relative-caret-position="990">
               <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
               <folding />
             </state>
@@ -154,10 +103,10 @@
         <option value="$PROJECT_DIR$/HW_one/requirements.txt" />
         <option value="$PROJECT_DIR$/SVDEg/README.md" />
         <option value="$PROJECT_DIR$/KNN and Naive Bayes/test.py" />
-        <option value="$PROJECT_DIR$/KNN and Naive Bayes/KNN.py" />
         <option value="$PROJECT_DIR$/KNN and Naive Bayes/requirements.txt" />
         <option value="$PROJECT_DIR$/KNN and Naive Bayes/README.md" />
         <option value="$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py" />
+        <option value="$PROJECT_DIR$/KNN and Naive Bayes/KNN.py" />
       </list>
     </option>
   </component>
@@ -209,7 +158,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,6 +174,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Bayesian_Spam_Classifier">
+  <component name="RunManager" selected="Python.KNN">
     <configuration name="Bayesian_Spam_Classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,8 +301,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Bayesian_Spam_Classifier" />
-        <item index="1" class="java.lang.String" itemvalue="Python.KNN" />
+        <item index="0" class="java.lang.String" itemvalue="Python.KNN" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Bayesian_Spam_Classifier" />
         <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
         <item index="3" class="java.lang.String" itemvalue="Python.hw_2" />
         <item index="4" class="java.lang.String" itemvalue="Python.test" />
@@ -374,19 +323,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -410,6 +360,69 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="738">
+            <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
@@ -674,10 +687,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="-80">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -687,19 +708,11 @@
     <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="738">
+          <first_editor relative-caret-position="459">
             <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN and Naive Bayes/Bayesian_Spam_Classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
