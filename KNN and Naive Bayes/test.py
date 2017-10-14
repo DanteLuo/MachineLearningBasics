@@ -27,13 +27,13 @@ import numpy as np
 # print(test_two)
 
 
-x1 = np.array([3,0,2])
-x2 = np.arange(12.0).reshape((4, 3))
+# x1 = np.array([3,0,2])
+# x2 = np.arange(12.0).reshape((4, 3))
 # print(x1,x2)
 # print(x2[:,0])
 # print(np.sum(x2,axis=1))
 # print(x1-x2)
-print(x1.argsort()[:3])
+# print(x1.argsort()[:3])
 # print(np.divide(x1, x2))
 # print(x2-x1)
 #
@@ -46,3 +46,5 @@ print(x1.argsort()[:3])
 #
 # print(sorted(x))
 
+
+print(np.argsort([1,2,3])[:1])

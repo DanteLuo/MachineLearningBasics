@@ -27,7 +27,7 @@ count_d_w = np.zeros([nd,nw],dtype=int)
 with open(train_path, newline='') as train:
     reader = csv.reader(train, delimiter=' ')
     for d_id, row in enumerate(reader):
-        current_email = csv.reader(row[2:-1],delimiter=':')
+        current_email = csv.reader(row[2:],delimiter=':')
         for rows in current_email:
             w_id = int(rows[0])
             count = int(rows[1])
@@ -36,20 +36,20 @@ with open(train_path, newline='') as train:
 
 # calculate p(y=1)=p_y[0] and p(y=-1)=p_y[1]
 p_y = np.zeros(2)
-p_y[0] = len((np.argwhere(label>0)))
-p_y[1] = nd - p_y[0]
+p_y[0] = float(len((np.argwhere(label>0))))/float(nd)
+p_y[1] = 1 - p_y[0]
 
 
-# calculate p(wj|yi=y)
+# calculate p(wj|yi=y) p_wj_y[0] = p(wj|yi=1)
 p_wj_y = np.zeros([2,nw])
 
-p_wj_y_numerator = np.sum(count_d_w[np.argwhere(label>0)][:],axis=0,dtype=float)[0]+1
-p_wj_y_denominator = np.sum(p_wj_y_numerator,dtype=float)
-p_wj_y[0] = p_wj_y_numerator/p_wj_y_denominator
+p_wj_y_numerator_1 = np.sum(count_d_w[np.argwhere(label>0),:],axis=0,dtype=float,keepdims=True)[0]+1
+p_wj_y_denominator_1 = np.sum(p_wj_y_numerator_1,dtype=float)
+p_wj_y[0] = p_wj_y_numerator_1/p_wj_y_denominator_1
 
-p_wj_y_numerator = np.sum(count_d_w[np.argwhere(label<0)][:],axis=0)[0]+1
-p_wj_y_denominator = np.sum(p_wj_y_numerator)
-p_wj_y[1] = p_wj_y_numerator/p_wj_y_denominator
+p_wj_y_numerator_0 = np.sum(count_d_w[np.argwhere(label<0),:],axis=0,dtype=float,keepdims=True)[0]+1
+p_wj_y_denominator_0 = np.sum(p_wj_y_numerator_0,dtype=float)
+p_wj_y[1] = p_wj_y_numerator_0/p_wj_y_denominator_0
 
 
 # classify the test dataset
@@ -67,7 +67,7 @@ count_d_w_test = np.zeros([nd_test,nw],dtype=int)
 with open(test_path, newline='') as test:
     reader = csv.reader(test, delimiter=' ')
     for d_id, row in enumerate(reader):
-        current_email = csv.reader(row[2:-1],delimiter=':')
+        current_email = csv.reader(row[2:],delimiter=':')
         for rows in current_email:
             w_id = int(rows[0])
             count = int(rows[1])
@@ -76,7 +76,7 @@ with open(test_path, newline='') as test:
 
 # calculate p(y=1|d)
 prediction = -(np.ones(nd_test))
-for d_index,ground_truth in enumerate(label_test):
+for d_index,_ in enumerate(label_test):
     p_di_y1 = 0
     p_di_y0 = 0 # y=-1
     num_step = 0
@@ -90,7 +90,7 @@ for d_index,ground_truth in enumerate(label_test):
     if prediction_single > 0.5:
        prediction[d_index] = 1
 
-    print('Case finished after {} timesteps'.format(num_step))
+    # print('Case finished after {} timesteps'.format(num_step))
 
 
 # calculate training error
@@ -101,7 +101,7 @@ print('The error rate on the SPARSE.TRAIN is {}%.'.format(training_err))
 # pick n most indicative tokens
 num_highest = 5
 token_indication = np.log(np.divide(p_wj_y[0],p_wj_y[1]))
-highest_id = token_indication.argsort()[-nd_test:][:num_highest]
-print('The most indicative token are:')
+highest_id = np.argsort(token_indication)[-num_highest:]
+print('The most indicative token are (in reverse order):')
 for indicative_id, token_id in enumerate(highest_id):
-    print(indicative_id+1,str(token_list[token_id]))
+    print(5-indicative_id,str(token_list[token_id]))

@@ -6,17 +6,17 @@ import matplotlib.pyplot as plt
 
 # classify the sample by K-Nearest Neighbors and break tie with random choice
 def knn_error_checking(train_data,test_data,k):
-    X_train = train_data[:,1:-1]
+    X_train = train_data[:,1:]
     Y_train = train_data[:,0]
-    X_test = test_data[:,1:-1]
+    X_test = test_data[:,1:]
     Y_test = test_data[:,0]
     test_predict = np.zeros(test_data.shape[0])
 
     for sample_id, sample in enumerate(X_test):
         # l2 norm
-        # distance = np.sqrt(np.sum(np.square(sample - X_train),axis=1))
+        distance = np.sqrt(np.sum(np.square(sample - X_train),axis=1))
         # l1 norm
-        distance = np.abs(np.sum((sample - X_train),axis=1))
+        # distance = np.abs(np.sum((sample - X_train),axis=1))
         prediction = Y_train[distance.argsort()[:k]]
         test_predict[sample_id] = Counter(prediction).most_common(1)[0][0]
 
@@ -49,13 +49,13 @@ def main():
         sample_index = np.random.choice(choices, sample_n)
         test_sample = test_data[sample_index][:]
         for k_ind, k in enumerate(k_candidates):
-            training_err[num_episode][k_ind] = knn_error_checking(train_data,train_data,k)
+            # training_err[num_episode][k_ind] = knn_error_checking(train_data,train_data,k)
             test_err[num_episode][k_ind] = knn_error_checking(train_data,test_sample,k)
 
     # averaging the error for a steady performance
-    training_err_avg = np.mean(training_err,axis=0)
-    plt.plot(k_candidates,training_err_avg,'or')
-    plt.plot(k_candidates,training_err_avg,'b')
+    test_err_avg = np.mean(test_err,axis=0)
+    plt.plot(k_candidates,test_err_avg,'or')
+    plt.plot(k_candidates,test_err_avg,'b')
     plt.ylabel('Training error %')
     plt.xlabel('K number')
     plt.show()
